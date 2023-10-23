@@ -2,3 +2,70 @@ img {
     height: 100px;
     width: 100px;
 }
+.container {
+    /* margin: 0;
+    padding: 0; */
+    /* box-sizing: border-box; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    /* margin: 0 auto;  */
+}
+.image img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+}
+.text {
+    width: 50%; /* Adjust the width as per your design */
+    padding: 20px; /* Add padding for spacing */
+}
+.sections-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Adjust the width as per your design */
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.section {
+    width: 100%; /* Adjust the width as per your design */
+    padding: 20px; /* Add padding for spacing */
+    border: 1px solid #ccc; /* Add borders for visual separation */
+    text-align: center; /* Center the text within each section */
+}
+
+/* Style section headings */
+.section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Style section paragraphs */
+.section p {
+    font-size: 1em;
+}
+h1 {
+    text-align: center;
+}
+
+#about-me {
+    text-align: center;
+}
+#services {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+footer {
+    text-align: center;
+}
+body {
+    background-color: pink;
+}
